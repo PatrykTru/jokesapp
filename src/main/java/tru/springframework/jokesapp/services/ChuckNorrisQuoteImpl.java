@@ -12,6 +12,7 @@ public class ChuckNorrisQuoteImpl extends ChuckNorrisQuotes implements ChuckNorr
     }
 
 
+
     @Override
     public String getQuote() {
         return chuckNorrisQuotes.getRandomQuote();
