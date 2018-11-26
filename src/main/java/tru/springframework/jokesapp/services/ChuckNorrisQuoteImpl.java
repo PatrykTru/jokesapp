@@ -11,6 +11,7 @@ public class ChuckNorrisQuoteImpl extends ChuckNorrisQuotes implements ChuckNorr
         this.chuckNorrisQuotes = new ChuckNorrisQuotes();
     }
 
+
     @Override
     public String getQuote() {
         return chuckNorrisQuotes.getRandomQuote();
